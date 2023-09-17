@@ -56,7 +56,7 @@ function Item() {
         <div className="flex flex-column g-2">
           <div className=" item_details flex align-center">
             <div className="absolute image">
-              <ImageRenderer url={api.originalImage(item.backdrop_path)} />
+              <img src={api.originalImage(item.backdrop_path)} />
             </div>
             <div className="flex g-2 align-center item__content">
               <div className="poster w-fit radius overflow-hidden relative">
